@@ -1,0 +1,121 @@
+* {
+    font-family: sans-serif;   
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background: rgba(169, 169, 169, 0.5);
+}
+
+.container {    
+    width: 100%;
+    margin: 0 auto 0.3rem auto;    
+    padding: 0 0.6rem;
+}
+
+.cabecalho .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho {
+    background: rgba(169, 169, 169, 0.7);
+    padding: 0.6rem 0;
+}
+
+.titulo__cabecalho {
+    display: inline;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.link__cabecalho {
+    display: inline;    
+    padding: 2px;
+
+    font-size: 20px;
+}
+
+.link__cabecalho a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.link__cabecalho a:hover {
+    text-decoration: underline;
+}
+
+.esportes__titulo,
+.economia__titulo,
+.entretenimento__titulo,
+.tecnologias__titulo {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 0.3rem;
+}
+
+.esportes__titulo {    
+    background: rgba(255,192,203);        
+}
+
+#sports {
+    background: rgba(255,192,203, 0.3);
+}
+
+.economia__titulo {    
+    background: rgba(127,255,212);
+}
+
+#economy {
+    background: rgba(127, 255, 212, 0.6);
+}
+
+.entretenimento__titulo {    
+    background: rgba(152,251,152);
+}
+
+#entertainment {
+    background: rgba(152, 251, 152, 0.6);
+}
+
+.tecnologias__titulo {    
+    background: rgba(244,164,96);
+}
+
+#technology {
+    background: rgba(244, 164, 96, 0.6);
+}
+
+.time {
+    margin-bottom: 0.3rem;
+}
+
+img, h3, p {
+    margin-bottom: 5px;
+}
+
+p {
+    line-height: 1.2rem;
+    color: rgba(0, 0, 0, 0.8);    
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.img__articles {
+    height: 180px;
+}
+
