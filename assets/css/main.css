@@ -119,3 +119,9 @@ p {
     height: 180px;
 }
 
+.link__noticia {
+    padding: 0.2rem 0.6rem;
+    background: rgba(169, 169, 169, 0.9);
+    color: #000000;
+    text-decoration: none;
+}
