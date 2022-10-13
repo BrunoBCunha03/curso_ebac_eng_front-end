@@ -22,13 +22,18 @@
     <form>
         <div class="container">
             <input id="atividade" type="text" placeholder="Nome da tarefa" required>
-            <button type="submit">Adcionar +</button>
+            <button type="submit">Adicionar +</button>
         </div>
     </form>
     <ul>
         <div class="container">            
         </div>
     </ul>
+    <div id="paginacao__botao" class="container">        
+        <button id="anterior" disabled>&lsaquo; Anterior</button>
+        <span id="numeracao"></span>
+        <button id="proximo" disabled>Próximo &rsaquo;</button>
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>

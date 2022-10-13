@@ -57,3 +57,23 @@ ul li {
     margin-bottom: 8px;
     list-style: none;    
 }
+
+#paginacao__botao {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#anterior,
+#proximo {
+    padding: 4px 8px;
+    background: #1E90FF;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.atividadeCheck {
+    text-decoration: line-through;
+}
