@@ -46,10 +46,13 @@ form input {
     border-radius: 5px;
 }
 
+form button {
+    text-transform: uppercase; 
+}
+
 button {
     color: #fff;
-    background:	#1E90FF;
-    text-transform: uppercase;    
+    background:	#1E90FF;       
     cursor: pointer;
     border: none;
     border-radius: 5px; 

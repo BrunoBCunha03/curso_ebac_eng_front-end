@@ -16,12 +16,12 @@ $(document).ready(function () {
     var pagina = 0;
 
     function paginar() {
-        $('ul > .container > li').remove();        
+        $('ul > .container > li').remove();
         for (var i = pagina * tamanhoPagina; i < dados.length && i < (pagina + 1) * tamanhoPagina; i++) {
             const novaLinha = $(`<li style="display: none"onclick="atividadeCheck(this);">${dados[i]}</li>`);
 
             $(novaLinha).appendTo('ul .container');
-            $(novaLinha).fadeIn(1000);            
+            $(novaLinha).fadeIn(1000);
         };
         $('#numeracao').text('Página ' + (pagina + 1) + ' de ' + Math.ceil(dados.length / tamanhoPagina));
     };
@@ -48,5 +48,10 @@ $(document).ready(function () {
 });
 
 function atividadeCheck(atividade) {
-    $(atividade).addClass("atividadeCheck");
+    if ($(atividade).hasClass("atividadeCheck")) {
+        $(atividade).removeClass("atividadeCheck");
+    }
+    else {
+        $(atividade).addClass("atividadeCheck");
+    }
 };
