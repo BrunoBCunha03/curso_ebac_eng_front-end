@@ -40,15 +40,19 @@ form {
 form input,
 form button {
     padding: 8px 16px;
-    border-radius: 5px;    
 }
 
-form button {
+form input {
+    border-radius: 5px;
+}
+
+button {
     color: #fff;
     background:	#1E90FF;
     text-transform: uppercase;    
     cursor: pointer;
-    border: none; 
+    border: none;
+    border-radius: 5px; 
 }
 
 ul li {
@@ -67,11 +71,7 @@ ul li {
 
 #anterior,
 #proximo {
-    padding: 4px 8px;
-    background: #1E90FF;
-    border: none;
-    color: #fff;
-    border-radius: 5px;
+    padding: 4px 8px;  
 }
 
 .atividadeCheck {
