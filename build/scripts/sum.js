@@ -1,0 +1,1 @@
+function ಠ_ಠ67(o,r){return o+r}module.ಠ_ಠ68=ಠ_ಠ67;
